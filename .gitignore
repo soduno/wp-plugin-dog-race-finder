@@ -1,0 +1,5 @@
+.env
+*.log
+/src/wp-content/plugins/*
+!/src/wp-content/plugins/dog-race-finder/
+/src/wp-content/plugins/dog-race-finder/vendor/

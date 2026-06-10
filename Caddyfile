@@ -1,0 +1,7 @@
+{
+	auto_https off
+}
+http://dog-race-finder-wp.local {
+	encode zstd gzip
+	reverse_proxy wordpress:80
+}
