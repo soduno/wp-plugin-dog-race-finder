@@ -1,0 +1,2 @@
+<?php if (!defined('ABSPATH')) { exit; } ?>
+<button type="button" class="drf drf-heart drf-heart-standalone" data-drf-component="heart" data-group="<?php echo esc_attr($data['group']); ?>" data-url="<?php echo esc_url($data['url']); ?>" data-label="<?php echo esc_attr($data['label']); ?>" data-breed="<?php echo esc_attr($data['breed']); ?>" aria-pressed="false" aria-label="Gem <?php echo esc_attr($data['label']); ?> som favorit">♡</button>
